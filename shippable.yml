@@ -3,8 +3,8 @@ language: c
 compiler:
   - gcc
  # - clang
-services:
-  - postgres
+#services:
+ # - postgres
 build:
   pre_ci_boot:
     image_name: drydock/u16cppall
