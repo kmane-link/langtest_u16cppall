@@ -17,7 +17,7 @@ services:
   - rethinkdb 
   - riak 
   - selenium 
-  - sqllite 
+ # - sqllite 
   
 build:
   pre_ci_boot:
