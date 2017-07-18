@@ -5,7 +5,7 @@ compiler:
  # - clang
 services:
   - cassandra 
-  - couchdb 
+  #- couchdb 
  # - elasticsearch 
   - memcached 
   - mongodb 
