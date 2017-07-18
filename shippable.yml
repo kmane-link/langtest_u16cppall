@@ -4,19 +4,17 @@ compiler:
   - gcc
  # - clang
 services:
-  - cassandra 
-  #- couchdb 
+ # - cassandra 
+  - couchdb 
  # - elasticsearch 
-  - memcached 
-  - mongodb 
-  - mysql 
-  - neo4j 
-  - postgres 
-  - rabbitmq 
-  - redis 
-  - rethinkdb 
-  - riak 
-  - selenium 
+ # - memcached 
+ # - mongodb 
+ # - mysql 
+ # - neo4j 
+ # - postgres 
+ ## - redis 
+ ## - riak 
+ # - selenium 
  # - sqllite 
   
 build:
