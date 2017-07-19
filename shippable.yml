@@ -2,20 +2,8 @@ language: c
 
 compiler:
   - gcc
- # - clang
-services:
- # - cassandra 
-  - couchdb 
- # - elasticsearch 
- # - memcached 
- # - mongodb 
- # - mysql 
- # - neo4j 
- # - postgres 
- ## - redis 
- ## - riak 
- # - selenium 
- # - sqllite 
+  - clang
+
   
 build:
   pre_ci_boot:
